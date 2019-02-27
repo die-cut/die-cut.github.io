@@ -1,0 +1,5 @@
+<FilesMatch "\.(htaccess|htpasswd|ini|woff2|woff|ttf|otf|svg|png|jpg|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+Options -Indexes
